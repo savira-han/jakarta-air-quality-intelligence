@@ -1,0 +1,22 @@
+# env
+.env
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# macos
+.DS_Store
+
+# datasets
+data/raw/
+data/processed/
+
+# db
+database/*.duckdb
+database/*.wal
+
+# temp files
+*.log
+*.tmp
