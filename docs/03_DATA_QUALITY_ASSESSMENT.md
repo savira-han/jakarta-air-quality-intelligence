@@ -2,13 +2,13 @@
 
 ## 1. Overview
 
-After retrieving PM2.5 data from OpenAQ, 2 validation processes were done to check whether the available data could support the planned air quality analysis.
+After retrieving PM2.5 data from OpenAQ, 2 (two) validation processes were done to check whether the available data could support the planned air quality analysis.
 
-The first was an **initial validator**, checked the historical availability of sensor data, the number of observations and the time gaps between records.
+1. **Initial validator**, checked the historical availability of sensor data, the number of observations and the time gaps between records.
 
-The second was a **full validator**, checked daily data completeness, measurement validity, reporting gaps and overall sensor reliability.
+2. **Full validator**, checked daily data completeness, measurement validity, reporting gaps and overall sensor reliability.
 
-The purpose of these assessments was to understand whether the available data could support a PM2.5 analysis across Jakarta and the surrounding areas: Tangerang, Bekasi and Bogor.
+Purpose: understand the available data quality, whther can support a PM2.5 analysis across Jakarta and the surrounding areas: Tangerang, Bekasi and Bogor.
 
 ## 2. Initial Validator: Historical Data Availability
 
@@ -51,19 +51,13 @@ Other sensors had more limited data. Jakarta South only had observations across 
 
 ### Initial assessment
 
-The initial validator helped identify sensors that might be suitable for further analysis.
+Sensors that might be suitable for further analysis:
 
-Lab. Lingkungan and Lab. Lingkungan 3 appeared to be the strongest candidates because their observations had relatively consistent hourly intervals during October.
-
-However, consistent reporting intervals do not automatically mean that the data is complete or reliable. A sensor may report regularly but still have too few observations within a day, invalid measurements or repeated values.
-
-For this reason, a more detailed validation was needed.
+Lab. Lingkungan and Lab. Lingkungan 3 appeared to be the strongest candidates because their observations had relatively consistent hourly intervals during October. However, consistent reporting intervals do not automatically mean that the data is complete or reliable. A sensor may report regularly but still have too few observations within a day, invalid measurements or repeated values. For this reason, a more detailed validation was needed.
 
 ## 3. Full Validator: Data Reliability and Feasibility
 
-The full validator checked whether the available observations were reliable enough for daily air quality analysis.
-
-The assessment covered 1 January to 31 October 2026, representing 304 days.
+The full validator checked whether the available observations were reliable enough for daily air quality analysis. The assessment timeframe: 1 January to 31 October 2026 (total 304 days).
 
 ### 3.1 Data availability
 
@@ -83,21 +77,18 @@ The sensors were distributed as follows:
 | Bogor | 1 |
 | **Total** | **12** |
 
-Jakarta had the most sensors, but the available observations did not provide enough reliable daily coverage.
+Jakarta had the most sensors, but did not provide reliable daily coverage.
 
 ### 3.2 Daily data quality criteria
 
-The validator checked three conditions for each sensor's daily observations.
-
-A day was considered valid only when:
+The validator checked these three conditions for each sensor's daily observations to be considered VALID:
 
 1. At least 75% of the expected hourly observations were available, meaning at least 18 out of 24 hours.
 2. The daily value was above zero and below 500 µg/m³.
 3. The sensor did not report identical readings throughout the day, which could indicate that the sensor was stuck.
 
-A sensor was considered usable when at least 70% of its assessed days were valid.
-
-These criteria helped distinguish sensors that simply had recorded data from sensors that provided sufficiently complete and reliable observations.
+A sensor was USABLE when at least 70% of its assessed days were valid.
+These criteria helped distinguish sensors that simply had recorded data vs sensors that provided sufficiently complete and reliable observations.
 
 ### 3.3 City-level assessment results
 
@@ -111,86 +102,61 @@ The validator assigned a PASS, PARTIAL or FAIL result to each city based on its 
 | Bogor | 0 / 0 | 19.7% | FAIL |
 
 The city-level requirements were:
-
 - **PASS:** At least 90% of study days have one or more valid sensors, with no month below 75% coverage.
 - **PARTIAL:** At least 60% of study days have one or more valid sensors.
 - **FAIL:** Coverage is below 60%.
 
-### What we found
+### Findings
 
 **Jakarta**
-
-Jakarta had 11 sensors checked, but none met the minimum usability requirement.
-
-Only 24.3% of the 304 study days had at least one valid sensor. The worst-performing month had no valid observations.
-
-This means that, despite having several sensors, the available data was not consistent enough throughout the study period.
+- Jakarta had 11 sensors checked, but none met the minimum requirement.
+- Only 24.3% of the 304 study days had at least one valid sensor. The worst performing month had no valid observations.
+Meaning, despite having several sensors, the available data was not consistent.
 
 **Tangerang**
-
-No PM2.5 sensors with observations were available during the assessment period.
-
+- No PM2.5 sensors with observations were available during the timeframe.
 As a result, there was no data available for analysis or comparison.
 
 **Bekasi**
-
-Similar to Tangerang, no PM2.5 sensors with observations were available during the assessment period.
-
+- Similar to Tangerang, no PM2.5 sensors with observations were available during the timeframe.
 This means Bekasi could not be included in the planned geographical comparison.
 
 **Bogor**
-
-Only one sensor was checked, and it did not meet the minimum usability requirement.
-
-Only 19.7% of study days had at least one valid sensor, showing that the data was highly intermittent.
+- Only one sensor was checked, and it did not meet the minimum requirement.
+- Only 19.7% of data days with at least one valid sensor, showing that the data was highly intermittent.
 
 ### Full validator conclusion
 
-All four cities received a FAIL verdict.
-
-The results show that the available monitoring data does not meet the requirements for the original geographical and temporal analysis.
+All four cities received a **FAIL** verdict. The results show that the available monitoring data does not meet the requirements for the original geographical and temporal analysis.
 
 ## 4. Why the Original Analysis Is Not Feasible
 
 The original plan was to analyze PM2.5 patterns across Jakarta, with Tangerang, Bekasi and Bogor as comparison areas.
-
 The planned analysis included hourly and daily concentration patterns, periods with higher PM2.5 concentrations, and the frequency and duration of elevated concentration episodes.
 
-However, the validation results revealed several problems.
+However, the validation results revealed several problems listed below:
 
 **1. Not enough daily observations**
-
 Jakarta had at least one valid sensor on only 24.3% of the study days. This is not enough to describe PM2.5 patterns consistently throughout the assessment period.
 
 **2. No sensors met the usability requirement**
-
 None of the 12 sensors passed the minimum requirement of 70% valid days.
 
 **3. Limited geographical coverage**
-
 Tangerang and Bekasi had no available PM2.5 observations, while Bogor had only one sensor with highly intermittent data.
-
 This makes it difficult to compare PM2.5 patterns across the selected areas.
 
 **4. Inconsistent reporting**
-
 Some sensors had relatively regular observation intervals, while others had long gaps or only recorded data for a short period.
-
 A high number of records does not necessarily mean that a sensor provides consistent coverage.
 
 **5. Measurement quality is not guaranteed**
-
 Even when a sensor reports regularly, its measurements still need to be checked for completeness, validity and possible measurement problems.
-
 Because of these limitations, the original analysis cannot provide a reliable comparison of PM2.5 patterns across the selected cities.
 
 ## 5. A Limited Exploratory Analysis Is Still Possible
 
-Although the original analysis is not feasible, the available data can still be used for a smaller exploratory analysis.
-
-The initial validator identified two sensors at Lab. Lingkungan with relatively consistent hourly observation intervals during October.
-
-These sensors provide a possible starting point for a more focused analysis.
+Although the original analysis is not feasible, the available data can still be used for a smaller exploratory analysis. The initial validator identified two sensors at Lab. Lingkungan with relatively consistent hourly observation intervals during October. These sensors provide a **possible starting point** for a more focused analysis.
 
 The proposed sample analysis will use:
 
@@ -210,7 +176,7 @@ The analysis will focus on:
 - How often relatively high PM2.5 readings occur.
 - The duration and timing of elevated concentration episodes.
 
-The analysis will only describe the observations from the selected sensor and period. It will not be used to describe the overall air quality of Jakarta.
+The analysis will only describe the observations from the **selected sensor and period**. It will **NOT** be used to describe the overall air quality of Jakarta.
 
 ### Limitations of the sample analysis
 
@@ -224,7 +190,7 @@ The findings must be understood within the following limitations:
 6. **Limited geographical representation:** The results cannot show whether similar patterns occur in other locations.
 7. **No source identification:** The analysis cannot explain what causes PM2.5 concentrations to increase.
 
-The purpose is to understand what can reasonably be learned from the available data, without making conclusions that the data cannot support.
+The purpose is to understand what can be learned from the available data, without making conclusions that the data cannot support.
 
 ## 6. Conclusion and Project Direction
 
