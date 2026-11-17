@@ -1,0 +1,5 @@
+city,verdict,n_locations_found,n_sensors_checked,n_usable_sensors,n_usable_locations,city_day_coverage_pct,worst_month_coverage_pct,median_sensors_per_day,mean_inter_sensor_corr,notes
+Jakarta,FAIL,11,11,0,0,24.3,0.0,0.0,,no sensor meets the per-sensor coverage threshold; weak month: 2026-01 at 0% coverage
+Tangerang,FAIL,0,0,0,0,0.0,0.0,0.0,,No PM2.5 sensor with data in period
+Bekasi,FAIL,0,0,0,0,0.0,0.0,0.0,,No PM2.5 sensor with data in period
+Bogor,FAIL,1,1,0,0,19.7,0.0,0.0,,no sensor meets the per-sensor coverage threshold; weak month: 2026-04 at 0% coverage

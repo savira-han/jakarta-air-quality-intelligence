@@ -1,0 +1,13 @@
+city,location_id,location_name,sensor_id,provider,station_type,units,days_with_any_data,valid_days,valid_day_pct,mean_completeness_pct,longest_gap_days,days_low_completeness,days_nonpositive,days_extreme,days_flatline,mean_pm25,p95_pm25,usable
+Bogor,5599584,Bogor Selatan,13986083,AirGradient,low-cost sensor,µg/m³,61,60,19.7,99.1,244,1,0,0,0,28.1,52.1,False
+Jakarta,6455006,BMKG 1,17000275,AirGradient,low-cost sensor,µg/m³,57,49,16.1,92.9,203,8,0,0,0,61.0,77.4,False
+Jakarta,6551316,Lab. Lingkungan ,17766208,AirGradient,low-cost sensor,µg/m³,33,32,10.5,98.4,272,1,0,0,0,60.9,74.8,False
+Jakarta,6551345,Lab. Lingkungan 3,17766346,AirGradient,low-cost sensor,µg/m³,31,26,8.6,92.6,278,5,0,0,0,67.4,85.8,False
+Jakarta,6551512,Warga Sini Hobi Bakar Sampah,17767065,AirGradient,low-cost sensor,µg/m³,20,19,6.2,94.8,285,1,0,0,0,67.3,84.6,False
+Jakarta,223262,Cilandek,1294751,HabitatMap,low-cost sensor,µg/m³,0,0,0.0,,304,0,0,0,0,,,False
+Jakarta,223824,Cilandek,1296386,HabitatMap,low-cost sensor,µg/m³,0,0,0.0,,304,0,0,0,0,,,False
+Jakarta,1489107,Cipete,6836394,HabitatMap,low-cost sensor,µg/m³,0,0,0.0,,304,0,0,0,0,,,False
+Jakarta,3276989,Cipete Jakarta,11361991,HabitatMap,low-cost sensor,µg/m³,0,0,0.0,,304,0,0,0,0,,,False
+Jakarta,3280117,Cipete Jakarta,11385217,HabitatMap,low-cost sensor,µg/m³,0,0,0.0,,304,0,0,0,0,,,False
+Jakarta,3294802,Cipete Dec,11494947,HabitatMap,low-cost sensor,µg/m³,0,0,0.0,,304,0,0,0,0,,,False
+Jakarta,6409860,Jakarta home open storage room (19-07-2026 @ 17.01),16668746,HabitatMap,low-cost sensor,µg/m³,0,0,0.0,,304,0,0,0,0,,,False

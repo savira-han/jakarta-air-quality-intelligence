@@ -15,7 +15,7 @@ OPENAQ_DIR = DATA_DIR / "openaq"
 WEATHER_DIR = DATA_DIR / "open_meteo"
 
 REPORT_PATH = (
-    PROJECT_ROOT / "docs" / "DATA_DISCOVERY_REPORT.md"
+    PROJECT_ROOT / "docs" / "DATA_DISCOVERY.md"
 )
 
 LOCATION_FILE = OPENAQ_DIR / "location_inventory.csv"
