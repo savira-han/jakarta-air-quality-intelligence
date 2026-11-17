@@ -2,60 +2,82 @@
 
 ## Background
 
-Air quality is an important environmental concern in Jakarta. Understanding how PM2.5 concentrations change over time can help identify periods when pollution levels are relatively high and how frequently these increases occur.
+Air quality is an important environmental concern in Jakarta and its surrounding areas. Understanding how PM2.5 concentrations change over time can help identify periods when pollution levels are relatively high, when they tend to occur, and how frequently they happen.
 
-Publicly available monitoring data provides an opportunity to explore these patterns. However, having access to a data source does not necessarily mean that the available data is sufficient for meaningful analysis.
+This project started with an attempt to retrieve publicly available PM2.5 data from OpenAQ and investigate whether it could support a meaningful air quality analysis.
 
-This project started with an attempt to retrieve historical PM2.5 data from OpenAQ for locations across DKI Jakarta. During the initial exploration, data availability and consistency turned out to be more limited than expected. Many sensors had no observations during the selected study period, while others had relatively short or inconsistent reporting histories.
+The initial plan was to focus on Jakarta, with Tangerang, Bekasi and Bogor included as comparison areas. The idea was to explore temporal patterns in PM2.5 concentrations and see whether the available data could provide useful insights across these locations.
 
-Rather than forcing a broad air quality analysis with insufficient data, the project focuses on understanding what is actually available and what can reasonably be learned from it.
+However, the initial data discovery and feasibility assessment revealed significant limitations in the available monitoring data.
 
 ## Project Objectives
 
-This project has two main objectives:
+This project aims to:
 
-1. Explore the available PM2.5 data and identify temporal patterns in the observations that can be used for limited exploratory analysis.
-2. Assess the limitations of the available monitoring data and use those findings to establish the need for a more reliable air quality monitoring process.
+1. Explore publicly available PM2.5 monitoring locations and sensors in Jakarta, Tangerang, Bekasi and Bogor.
+2. Assess the availability, completeness and continuity of historical PM2.5 observations.
+3. Determine whether the available data can support meaningful air quality analysis.
+4. Extract limited descriptive insights from the observations that are suitable for analysis.
+5. Identify the data limitations and monitoring needs that could affect future air quality analysis.
 
-## Analytical Scope
+## Initial Analytical Scope
 
-The project uses publicly available PM2.5 observations from OpenAQ, focusing on monitoring locations within DKI Jakarta.
+The original plan was to conduct a temporal analysis of PM2.5 concentrations in Jakarta and use Tangerang, Bekasi and Bogor as comparison areas.
 
-The initial objective was to investigate PM2.5 patterns across multiple locations over a one-year period. However, the retrieved data did not provide sufficient coverage to support that scope reliably.
+The intended analysis included:
 
-The analysis is therefore narrowed to a selected sensor with usable observations. The exploratory analysis focuses on hourly PM2.5 measurements and examines:
+- Overall PM2.5 concentration patterns.
+- Hourly and daily concentration changes.
+- Typical hours and days with higher concentrations.
+- Frequency and duration of elevated PM2.5 episodes.
+- Comparisons between Jakarta and surrounding areas, where data availability allowed.
 
-- Overall concentration levels and distribution.
-- Changes in concentration throughout the day.
-- Differences across days of the week.
-- The frequency and duration of elevated PM2.5 observations.
+Before proceeding with the analysis, a data feasibility assessment was conducted using OpenAQ data.
 
-These findings describe only the available observations from the selected sensor and period. They should not be interpreted as representative of air quality across Jakarta.
+The assessment examined candidate monitoring locations, sensor availability, historical data coverage, daily observation completeness and reporting continuity.
+
+## Project Direction and Data Limitations
+
+The feasibility assessment showed that the available data was not sufficiently reliable to support the original analytical scope.
+
+**Jakarta**
+
+PM2.5 data is available from several monitoring locations, but its availability and reporting consistency are limited.
+
+Although multiple sensors were identified, none met the defined usability threshold of at least 70% valid days during the assessment period. Only 24.3% of the 304 study days had at least one valid sensor, and some months had no valid observations.
+
+This means that the available Jakarta data does not provide sufficiently consistent coverage for a reliable analysis across the city.
+
+**Tangerang, Bekasi and Bogor**
+
+Data availability in the surrounding areas is even more limited.
+
+Tangerang and Bekasi had no PM2.5 sensors with observations during the assessment period. Bogor had only one candidate sensor, but its observations were highly intermittent, with only 19.7% of study days having at least one valid sensor.
+
+As a result, these locations cannot provide reliable comparison data for the intended geographical analysis.
+
+**Implications for the analysis**
+
+The original plan to compare PM2.5 patterns across Jakarta and its surrounding areas is therefore not feasible with the currently available observations.
+
+However, the data is not entirely without value. Selected sensors and observation periods may still support limited exploratory analysis, provided that the findings are clearly presented within their actual data coverage and limitations.
 
 ## Project Approach
 
-The work is organized into five stages:
+The project is organized into five stages:
 
-1. **Data Discovery** : Explore available monitoring locations, sensors and measurement information from OpenAQ.
-2. **Data Retrieval** : Retrieve historical PM2.5 observations for the selected geographical area and study period.
-3. **Data Assessment** : Examine data availability, completeness, reporting continuity and other limitations that may affect the analysis.
-4. **Exploratory Analysis** : Analyze the available observations to identify temporal patterns and elevated PM2.5 episodes.
-5. **Monitoring Solution Rationale** : Use the findings and data limitations to identify what should be monitored to improve data availability and reliability.
-
-## Expected Deliverables
-
-- Inventory of available PM2.5 monitoring locations and sensors.
-- Historical PM2.5 observation dataset.
-- Data availability and feasibility assessment.
-- Exploratory analysis of temporal PM2.5 patterns.
-- Summary of analytical limitations and monitoring requirements.
+1. **Data Discovery** : Explore available PM2.5 monitoring locations, sensors and measurement information from OpenAQ.
+2. **Data Retrieval and Feasibility Assessment** : Retrieve historical observations and evaluate sensor availability, completeness and reporting continuity.
+3. **Data Limitation Assessment** : Identify geographical and measurement limitations that affect the reliability and scope of the intended analysis.
+4. **Exploratory Analysis** : Use the most suitable available observations to examine PM2.5 temporal patterns and identify limited descriptive insights.
+5. **Monitoring Solution Rationale** : Translate the identified data availability and reporting issues into requirements for a more reliable air quality monitoring process.
 
 ## Project Direction
 
-The initial data exploration highlighted an important limitation: meaningful analysis depends not only on the availability of data, but also on how consistently and reliably it is collected.
+Rather than forcing a broad air quality analysis with insufficient data, this project will focus on what can reasonably be learned from the available observations.
 
-The limited observations can still provide some insight into PM2.5 patterns at an individual monitoring location. However, the wider data availability issues make it difficult to conduct a reliable assessment across Jakarta.
+A selected sensor and observation period may be used to explore typical PM2.5 concentrations, when higher readings tend to occur, and how frequently elevated observations are recorded. These findings will be treated as observations from the selected monitoring source, not as a representation of overall air quality in Jakarta.
 
-These findings provide the starting point for a separate monitoring project, which will focus on tracking sensor reporting, data completeness and data quality over time.
+The data discovery process also highlights a wider problem: having monitoring locations does not guarantee that usable data will be consistently available.
 
-The aim is to build on the experience from this project and address the data reliability issues that limit future air quality analysis.
+This creates the rationale for a separate air quality monitoring project. Its focus will be on tracking sensor availability, reporting continuity, data completeness and measurement quality, so that future air quality analysis can be supported by more reliable observations.

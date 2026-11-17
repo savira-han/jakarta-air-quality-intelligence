@@ -1,21 +1,21 @@
-city,dist_to_centre_km,location_id,name,locality,provider,owner,station_type,latitude,longitude,first_data_utc,last_data_utc,overlaps_period,n_pm25_sensors,pm25_sensor_ids,pm25_units
-Bekasi,4.36,6051932,East Jakarta Mayor Office,,Clean Air Catalyst,Clean Air Catalyst,reference monitor,-6.214719,106.944138,2023-09-30T17:00:00Z,2025-06-30T16:00:00Z,False,1,14313802,µg/m³
-Bogor,4.42,5599584,Bogor Selatan,,AirGradient,AirGradient,low-cost sensor,-6.62854,106.795046,2025-08-29T08:00:00Z,2026-03-02T05:00:00Z,True,1,13986083,µg/m³
-Jakarta,2.0,6409860,Jakarta home open storage room (19-07-2026 @ 17.01),,HabitatMap,HabitatMap,low-cost sensor,-6.216456709,106.829211675,,,False,1,16668746,µg/m³
-Jakarta,2.61,1776543,Jihan Fauziah Hamdi ,,AirGradient,Unknown Person,low-cost sensor,-6.2210686,106.8254998,2023-10-30T13:00:00Z,2024-05-26T00:00:00Z,False,1,7325489,µg/m³
-Jakarta,3.18,8637,Jakarta Central,N/A,AirNow,Unknown Governmental Organization,reference monitor,-6.182536,106.834235,2016-11-09T18:00:00Z,2025-04-09T14:00:00Z,False,1,25072,µg/m³
-Jakarta,3.2,2538,US Diplomatic Post: Jakarta Central,,StateAir JakartaCentral,Unknown Governmental Organization,reference monitor,-6.182382,106.834094,2016-01-30T01:00:00Z,2016-11-09T16:00:00Z,False,1,5048,µg/m³
-Jakarta,5.91,6455006,BMKG 1,,AirGradient,AirGradient,low-cost sensor,-6.1557694,106.8423941,2026-07-22T04:00:00Z,2026-10-07T05:00:00Z,True,1,17000275,µg/m³
-Jakarta,6.28,2071976,Krukut,,AirGradient,Unknown Person,low-cost sensor,-6.159382,106.818018,2024-01-09T08:00:00Z,2024-09-10T08:00:00Z,False,1,7666066,µg/m³
-Jakarta,6.55,2537,US Diplomatic Post: Jakarta South,,StateAir JakartaSouth,Unknown Governmental Organization,reference monitor,-6.236585,106.793335,2016-01-30T01:00:00Z,2016-11-09T16:00:00Z,False,1,5047,µg/m³
-Jakarta,6.57,8320,Jakarta South,N/A,AirNow,Unknown Governmental Organization,reference monitor,-6.236704,106.793244,2022-10-03T20:00:00Z,2025-11-04T21:00:00Z,False,1,5077558,µg/m³
-Jakarta,7.64,6551316,Lab. Lingkungan ,,AirGradient,Unknown Person,low-cost sensor,-6.168547,106.789572,2026-09-29T07:00:00Z,2026-11-17T01:00:00Z,True,1,17766208,µg/m³
-Jakarta,7.64,6551345,Lab. Lingkungan 3,,AirGradient,Unknown Person,low-cost sensor,-6.168547,106.789572,2026-10-01T07:00:00Z,2026-11-17T01:00:00Z,True,1,17766346,µg/m³
-Jakarta,7.99,6551512,Warga Sini Hobi Bakar Sampah,,AirGradient,Unknown Person,low-cost sensor,-6.18148,106.77874,2026-10-12T13:00:00Z,2026-11-17T01:00:00Z,True,1,17767065,µg/m³
-Jakarta,8.83,1489107,Cipete,,HabitatMap,Unknown Community Organization,low-cost sensor,-6.273957945,106.799961515,,,False,1,6836394,µg/m³
-Jakarta,8.84,3276989,Cipete Jakarta,,HabitatMap,HabitatMap,low-cost sensor,-6.274033597,106.799931675,,,False,1,11361991,µg/m³
-Jakarta,8.84,3280117,Cipete Jakarta,,HabitatMap,HabitatMap,low-cost sensor,-6.27404826,106.799946763,,,False,1,11385217,µg/m³
-Jakarta,8.84,3294802,Cipete Dec,,HabitatMap,HabitatMap,low-cost sensor,-6.274064257,106.799920946,,,False,1,11494947,µg/m³
-Jakarta,8.85,223262,Cilandek,,HabitatMap,Unknown Community Organization,low-cost sensor,-6.274138909,106.799896471,,,False,1,1294751,µg/m³
-Jakarta,8.85,223824,Cilandek,,HabitatMap,Unknown Community Organization,low-cost sensor,-6.274094251,106.79987099,,,False,1,1296386,µg/m³
-Tangerang,11.75,6051931,West Jakarta Mayor Office,,Clean Air Catalyst,Clean Air Catalyst,reference monitor,-6.18588,106.737892,2023-09-30T17:00:00Z,2025-06-30T16:00:00Z,False,1,14313799,µg/m³
+city,distance_to_centre_km,location_id,name,locality,provider,station_type,latitude,longitude,first_data_utc,last_data_utc,overlaps_period,pm25_sensor_ids
+Bekasi,4.36,6051932,East Jakarta Mayor Office,,Clean Air Catalyst,reference monitor,-6.214719,106.944138,2023-09-30T17:00:00Z,2025-06-30T16:00:00Z,False,14313802
+Bogor,4.42,5599584,Bogor Selatan,,AirGradient,low-cost sensor,-6.62854,106.795046,2025-08-29T08:00:00Z,2026-03-02T05:00:00Z,True,13986083
+Jakarta,2.0,6409860,Jakarta home open storage room (19-07-2026 @ 17.01),,HabitatMap,low-cost sensor,-6.216456709,106.829211675,,,False,16668746
+Jakarta,2.61,1776543,Jihan Fauziah Hamdi ,,AirGradient,low-cost sensor,-6.2210686,106.8254998,2023-10-30T13:00:00Z,2024-05-26T00:00:00Z,False,7325489
+Jakarta,3.18,8637,Jakarta Central,N/A,AirNow,reference monitor,-6.182536,106.834235,2016-11-09T18:00:00Z,2025-04-09T14:00:00Z,False,25072
+Jakarta,3.2,2538,US Diplomatic Post: Jakarta Central,,StateAir JakartaCentral,reference monitor,-6.182382,106.834094,2016-01-30T01:00:00Z,2016-11-09T16:00:00Z,False,5048
+Jakarta,5.91,6455006,BMKG 1,,AirGradient,low-cost sensor,-6.1557694,106.8423941,2026-07-22T04:00:00Z,2026-10-07T05:00:00Z,True,17000275
+Jakarta,6.28,2071976,Krukut,,AirGradient,low-cost sensor,-6.159382,106.818018,2024-01-09T08:00:00Z,2024-09-10T08:00:00Z,False,7666066
+Jakarta,6.55,2537,US Diplomatic Post: Jakarta South,,StateAir JakartaSouth,reference monitor,-6.236585,106.793335,2016-01-30T01:00:00Z,2016-11-09T16:00:00Z,False,5047
+Jakarta,6.57,8320,Jakarta South,N/A,AirNow,reference monitor,-6.236704,106.793244,2022-10-03T20:00:00Z,2025-11-04T21:00:00Z,False,5077558
+Jakarta,7.64,6551316,Lab. Lingkungan ,,AirGradient,low-cost sensor,-6.168547,106.789572,2026-09-29T07:00:00Z,2026-11-17T06:00:00Z,True,17766208
+Jakarta,7.64,6551345,Lab. Lingkungan 3,,AirGradient,low-cost sensor,-6.168547,106.789572,2026-10-01T07:00:00Z,2026-11-17T06:00:00Z,True,17766346
+Jakarta,7.99,6551512,Warga Sini Hobi Bakar Sampah,,AirGradient,low-cost sensor,-6.18148,106.77874,2026-10-12T13:00:00Z,2026-11-17T06:00:00Z,True,17767065
+Jakarta,8.83,1489107,Cipete,,HabitatMap,low-cost sensor,-6.273957945,106.799961515,,,False,6836394
+Jakarta,8.84,3276989,Cipete Jakarta,,HabitatMap,low-cost sensor,-6.274033597,106.799931675,,,False,11361991
+Jakarta,8.84,3280117,Cipete Jakarta,,HabitatMap,low-cost sensor,-6.27404826,106.799946763,,,False,11385217
+Jakarta,8.84,3294802,Cipete Dec,,HabitatMap,low-cost sensor,-6.274064257,106.799920946,,,False,11494947
+Jakarta,8.85,223262,Cilandek,,HabitatMap,low-cost sensor,-6.274138909,106.799896471,,,False,1294751
+Jakarta,8.85,223824,Cilandek,,HabitatMap,low-cost sensor,-6.274094251,106.79987099,,,False,1296386
+Tangerang,11.75,6051931,West Jakarta Mayor Office,,Clean Air Catalyst,reference monitor,-6.18588,106.737892,2023-09-30T17:00:00Z,2025-06-30T16:00:00Z,False,14313799
