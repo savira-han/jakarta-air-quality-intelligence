@@ -4,26 +4,26 @@
 -- FROM master_pm25_hourly;
 
 
--- 2. Inspect a sample of records
-SELECT period.datetimeFrom.utc
-FROM master_pm25_hourly
-LIMIT 2;
+-- -- 2. Inspect a sample of records
+-- SELECT *
+-- FROM master_pm25_hourly
+-- LIMIT 2;
 
 
 -- 3. Check the sensors and their observation periods
--- SELECT
---     sensor_id,
---     location_id,
---     location_name,
---     COUNT(*) AS total_records,
---     MIN("period.datetimeFrom.local") AS first_observation,
---     MAX("period.datetimeFrom.local") AS last_observation
--- FROM master_pm25_hourly
--- GROUP BY
---     sensor_id,
---     location_id,
---     location_name
--- ORDER BY sensor_id;
+SELECT
+    sensor_id,
+    location_id,
+    location_name,
+    COUNT(*) AS total_records,
+    MIN("period.datetimeFrom.local") AS first_observation,
+    MAX("period.datetimeFrom.local") AS last_observation
+FROM master_pm25_hourly
+GROUP BY
+    sensor_id,
+    location_id,
+    location_name
+ORDER BY sensor_id;
 
 
 -- -- 4. Check parameter names and measurement units
